@@ -7,6 +7,9 @@ export const CountdownStyle = styled.div`
    justify-content: center;
    align-items: center;
    height: 8vh;
+   @media (max-width: 930px) {
+      margin-bottom: 15%;
+   }
 `
 
 export const CountDisplayStyle = styled.div`

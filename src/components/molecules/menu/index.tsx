@@ -23,7 +23,7 @@ export default function MobileMenu({ isopen, active }: MenuProps) {
          </rect>
          </svg>
       </MobileBotoonMenu>
-      <MenuStyle isOpen={isopen}>
+      <MenuStyle isopen={isopen}>
          <AStyle href='{Hero.src}' download="presentes">
                NOSSA HISTORIA
             </AStyle>

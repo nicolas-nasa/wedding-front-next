@@ -14,8 +14,8 @@ export const MobileBotoonMenu = styled.div`
   width: 40px;
   margin-left: 10px;
 `
-export const MenuStyle = styled.div<{isOpen: boolean}>`
-   display: ${props => props.isOpen ? 'flex' : 'none'};
+export const MenuStyle = styled.div<{isopen: boolean}>`
+   display: ${props => props.isopen ? 'flex' : 'none'};
    height: 20vh;
    flex-direction: column;
    align-items: center;
@@ -26,7 +26,7 @@ export const MenuStyle = styled.div<{isOpen: boolean}>`
    font-size: 12px;
    font-weight: bold;
    text-align: center;
-   animation: scale-up-hor-left 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) ${props => props.isOpen ? '' : 'reverse'} both;
+   animation: scale-up-hor-left 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) ${props => props.isopen ? '' : 'reverse'} both;
    @keyframes scale-up-hor-left {
   0% {
     opacity: 0;
